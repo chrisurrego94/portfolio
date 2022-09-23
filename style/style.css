@@ -1,0 +1,380 @@
+body {
+    background-color: #DEDEDE;
+    width: 1440px;
+    margin-bottom: 100px;
+
+}
+header{
+    position: relative;
+}
+.ball1{
+    position: absolute;
+    background-color: #EC7D10;
+    border-radius: 100%;
+    filter: blur(50px);
+    width: 240px;
+    height: 240px;
+    top: 30%;
+    left: 45%;
+    animation: ball1 25s;
+    animation-iteration-count: infinite;
+    z-index: 0;
+   
+
+}
+.ball2{
+    position: absolute;
+    background-color: #EC7D10;
+    border-radius: 100%;
+    filter: blur(50px);
+    width: 238px;
+    height: 238px;
+    left: 163px;
+    top: 278px;
+    animation: ball2 25s;
+    animation-iteration-count: infinite;
+    z-index: 0s;
+
+}
+.ball3{
+    position: absolute;
+    background-color:#EC7D10;
+    border-radius: 100%;
+    filter: blur(60px);
+    width: 298px;
+    height: 298px;
+    left: 894px;
+    top: 238px;
+    animation: ball3 25s;
+    animation-iteration-count: infinite;
+    z-index: 0s;
+
+}
+
+img {
+    width: 100%;
+}
+
+a:hover {
+    color: #EC7D10;
+    text-decoration:line-through
+
+}
+
+a {
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50%;
+    width: 90%;
+    max-width: 1440px;
+    padding: 24px 83px 83px 83px;
+    position: fixed;
+    z-index: 2;
+    
+}
+
+.paginas {
+    display: flex;
+    gap: 70px;
+}
+
+.logo {
+    width: 20%;
+}
+
+main {
+    margin: 0 80px;
+
+}
+
+.titulo {
+    width: 80%;
+    margin: 0 auto 60px auto;
+    max-width: 1440px;
+    position: relative;
+    z-index: 1;
+
+}
+
+.chrisurr {
+    display: flex;
+    justify-content: left;
+    gap: 14px;
+    width: 80%;
+    margin: 120px auto 0;
+}
+.projects{
+    width: 100%;
+    max-width: 1300px;
+}
+.filledButton {
+    font-family: Poppins, sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: #EC7D10;
+    border: 3px solid #EC7D10;
+    border-radius: 45px;
+    padding: 15px;
+
+    text-align: center;
+}
+
+
+h1 {
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    width: 897px;
+    color: black;
+    font-size: 60px;
+    text-align: justify;
+    margin: 0 auto;
+    margin-top: 12px;
+    margin-bottom: 39px;
+}
+
+span {
+    color: #DEDEDE
+}
+
+#light {
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: black;
+    padding-top: 44px;
+    text-align: center;
+    width: 693px;
+    margin: 0 auto;
+
+}
+.projectname{
+    cursor:default;
+}
+.projectname:hover{
+    color: #EC7D10;
+}
+h2 {
+    font-family: Poppins, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+}
+.project-text {
+    margin-bottom: 50px;
+}
+.linkbehance{
+    background-color: #EC7D10;
+    padding: 1%;
+    color: #DEDEDE;
+    border-radius: 45px;
+}
+
+section {
+    padding-top: 60px;
+}
+
+.filledButton2 {
+    font-family: Poppins, sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    color: #DEDEDE;
+    background-color: #EC7D10;
+    padding: 15px;
+    border-radius: 45px;
+    width: 75px;
+    text-align: center;
+    transform: rotate(22deg);
+}
+
+p {
+    font-family: Poppins, sans-serif;
+    font-size: 22px;
+    font-weight: 100px;
+    padding-top: 14px;
+    padding-right: 300px;
+    text-align: justify;
+}
+
+.chips {
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #EC7D10;
+    background-color: #DEDEDE;
+    border: 3px solid #EC7D10;
+    text-align: center;
+    border-radius: 45px;
+    padding: 15px;
+
+}
+
+.cora01 {
+    height: 376;
+    width: 269;
+}
+
+.project {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+
+}
+
+.orgchip {
+    display: flex;
+    gap: 10px;
+    padding-top: 12px;
+}
+
+.imagescontainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.images1 {
+    display: flex;
+    width: 55%;
+    justify-content: space-between;
+    object-fit: cover;
+}
+
+.images2 {
+    width: 40%;
+    object-fit: cover;
+}
+
+.image-group-1 {
+    width: 40%;
+}
+
+.image-group-2 {
+    width: 55%;
+}
+
+
+.imagescontainer-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.images-2 {
+    width: 50%;
+}
+
+.images-2-2 {
+    width: 46%;
+    height: 750px;
+    object-fit: cover;
+}
+
+.imagescontainer2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-group-5 {
+    width: 33%;
+}
+
+.title-about {
+    font-family: Poppins, sans-serif;
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.line {
+    height: 2px;
+    width: 100%;
+    background-color: black;
+    margin-top: 100px;
+}
+#about{
+    position: relative;
+    z-index: -1;
+}
+.about-title{
+    position: relative;
+    z-index:1; 
+}
+
+.ball4{
+    position: absolute;
+    background-color: #EC7D10;
+    border-radius: 100%;
+    filter: blur(50px);
+    width: 300px;
+    height: 300px;
+    top: 10%;
+    left: 15%;
+    z-index: 0s;
+    animation: ball4 25s;
+    animation-iteration-count: infinite;
+}
+
+.title-about {
+    color: black;
+    margin-top: 150px;
+}
+
+.span {
+    color: #EC7D10;
+}
+.textabout {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.quoteabout {
+    width: 50%;
+
+}
+
+.textasmall {
+    padding: 1px;
+    width: 50%;
+}
+
+.me {
+    color:#DEDEDE;
+}
+@keyframes ball1 {
+    0%   {left:45%; top:30%}
+    25%  {left:30%; top:50%;}
+    50%  {left:50%; top:60%;}
+    75%  {left:30%; top:30%;}
+    100% {left:45%; top:30%;}
+}
+@keyframes ball2 {
+    0%   {left:163px; top:278px}
+    35%  {left: 140px; top:380px;}
+    50%  {left:170px; top: 420px;}
+    75%  {left:200px; top:350px;}
+    100% {left:163px; top:278px;}
+}
+@keyframes ball3 {
+    0%   {left: 894px; top:238px}
+    10%  {left: 794px; top:330px;}
+    50%  {left:890px; top: 430px;}
+    75%  {left:720px; top:330px;}
+    100% {left:894px; top:238px;}
+}
+
+@keyframes ball4 {
+    0%   {left:10%; top:15%}
+    25%  {left:30%; top:25%;}
+    50%  {left:15%; top:20%;}
+    75%  {left:25%; top:10%;}
+    100% {left:10%; top:15%;}
+}
+
