@@ -177,6 +177,12 @@ h2 {
     color: #DEDEDE;
     border-radius: 45px;
 }
+.linkbehance:hover{
+    background-color: #DEDEDE;
+    border: 3px;
+    border-color:solid #EC7D10;
+    color: #EC7D10;
+}
 
 section {
     padding-top: 60px;
@@ -190,7 +196,6 @@ section {
     background-color: #EC7D10;
     padding: 15px;
     border-radius: 45px;
-    width: 75px;
     text-align: center;
     transform: rotate(22deg);
 }
